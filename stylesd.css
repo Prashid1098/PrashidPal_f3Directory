@@ -1,0 +1,132 @@
+*, body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+.cover-container
+{
+    display: flex;
+}
+.title-poa header
+{
+    color: #575a85;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 11%;
+    margin-top: 1%;
+}
+.cover-p
+{
+    color:white;
+    font-size: 24px;
+    font-weight: 400;
+    white-space: pre;
+}
+.cover-im
+{
+    margin-left: 21%;
+}
+.IP-Address
+{
+    background-color: #575a85;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 10%;
+}
+#IP-Des, #getnext, #IP-Display
+{
+    color: #B8BCCC;
+    background-color: #575a85;
+}
+#IP-Des
+{
+    margin-top: 40vh;
+    padding: 5%;
+    font-size: 35px;
+    font-weight: 700;
+}
+#IP-Display
+{
+    color: #FFFFFF;
+}
+#getnext
+{
+    width: 345px;
+    height: 67px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.IP-Note
+{
+    color: #B8BCCC;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+#IP-content-display
+{
+    color: #FFFFFF;
+}
+.Co-Details, .geog-details
+{
+    color: #B8BCCC;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lat-long
+{
+    color: #B8BCCC;
+}
+.map-l
+{
+    padding-top: 8%;
+    padding-right: 30%;
+    padding-left: 20%;
+}
+.more-info header
+{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px;
+}
+.more-info div ul
+{
+    list-style-type: none;
+    margin: 8px;
+}
+.more-info div ul>li
+{
+    margin: 8px;
+}
+.postadd ul
+{
+    margin-top: 26vh;
+    border: 2px solid #575a85;
+    border-radius: 5px;
+    background-color: #575a85;
+}
+.postadd
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+}
+.postadd ul
+{
+    border: 2px solid #575a85;
+    padding: 10px;
+    width: 35vw;
+    list-style-type: none;
+    background-color: #575a85;
+    color: #FFFFFF;
+}
+.postadd ul>li
+{
+    margin: 5px;
+}
